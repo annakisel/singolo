@@ -13,6 +13,7 @@ body {
     top: 0;
     left: 0;
     background-color: #2d303a;
+    font-weight: 700;
 }
 
 .header > .wrapper {
@@ -20,7 +21,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     height: 9.5rem;
-    margin: 0 3.8rem;
+    margin: 0 3.7rem;
 }
 
 .header__navigation, .logo {
@@ -32,6 +33,8 @@ body {
 
 .logo {
     font-size: 2.4rem;
+    margin-bottom: 1rem;
+    margin-left: 2px;
 }
 
 .logo > span {
@@ -45,7 +48,7 @@ body {
 
 .menu__item {
     list-style-type: none;
-    margin-left: 3rem;
+    margin: 0.2rem 0 0 2.9rem;
     font-size: 1.2rem;
 }
 
