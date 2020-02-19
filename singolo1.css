@@ -5,10 +5,13 @@ html {
 body {
     font-size: 1.6rem;
     font-family: 'Lato', sans-serif;
+    margin: 0;
 }
 
 .header {
     position: absolute;
+    display: flex;
+    justify-content: center;
     width: 100%;
     top: 0;
     left: 0;
@@ -17,11 +20,12 @@ body {
 }
 
 .header > .wrapper {
+    width: 102rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 9.5rem;
-    margin: 0 3.7rem;
+    padding: 0 3.7rem;
 }
 
 .header__navigation, .logo {
@@ -48,7 +52,7 @@ body {
 
 .menu__item {
     list-style-type: none;
-    margin: 0.2rem 0 0 2.9rem;
+    margin: 0.2rem 0 0 3rem;
     font-size: 1.2rem;
 }
 
@@ -61,3 +65,76 @@ body {
     color: #f06c64;
 }
 
+.main {
+    position: relative;
+    top: 9.5rem;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    height: 60rem;
+    background-color: #f06c64;
+}
+
+.slider > .wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4rem;
+    width: 100%;
+}
+
+.button_prev {
+    background: url('assets/images/left.png') transparent;
+    height: 2.7rem;
+    width: 2.7rem;
+    border: none;
+}
+
+.button_next {
+    background: url('assets/images/right.png') transparent;
+    height: 2.7rem;
+    width: 2.7rem;
+    border: none;
+}
+
+.content > .wrapper {
+    margin: 6rem 4rem;
+    color: #666d89;
+}
+
+.content__header {
+    font-size: 3rem;
+    text-transform: capitalize;
+    margin-bottom: 2.1rem;
+}
+
+.content__description {
+    font-size: 1.7rem;
+}
+
+.layout-columns {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    width: 30rem;
+    text-transform: capitalize;
+}
+
+.card__img {
+    margin: 0 1.5rem;
+}
+
+.card__description {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.card__header {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
