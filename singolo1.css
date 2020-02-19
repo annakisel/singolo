@@ -1,0 +1,60 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #2d303a;
+}
+
+.header > .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 9.5rem;
+    margin: 0 3.8rem;
+}
+
+.header__navigation, .logo {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.logo {
+    font-size: 2.4rem;
+}
+
+.logo > span {
+    color: #f06c64;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu__item {
+    list-style-type: none;
+    margin-left: 3rem;
+    font-size: 1.2rem;
+}
+
+.menu__item > a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu__item > a:hover {
+    color: #f06c64;
+}
+
