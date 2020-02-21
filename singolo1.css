@@ -93,15 +93,19 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 3.5rem;
+    padding: 0 3rem;
     width: 100%;
 }
 
-.arrow-button {
-    background: url('assets/images/right.png') no-repeat;
+.arrow {
+    background: url('assets/images/right.png') no-repeat transparent;
     height: 4rem;
     width: 2.7rem;
     border: none;
+}
+
+.arrow:hover {
+    filter: grayscale(60%);
 }
 
 .phone {
@@ -116,7 +120,7 @@ body {
     margin-left: 0.1rem;
 }
 
-.button_prev {
+.arrow_prev {
     transform: rotateY(180deg);
 }
 
