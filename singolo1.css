@@ -25,7 +25,8 @@ body {
     flex-direction: row;
     justify-content: space-between;
     height: 9.5rem;
-    padding: 0 3.7rem;
+    padding: 0 3.9rem;
+    letter-spacing: -0.015rem;
 }
 
 .header__navigation, .logo {
@@ -37,8 +38,8 @@ body {
 
 .logo {
     font-size: 2.4rem;
-    margin-bottom: 1rem;
-    margin-left: 2px;
+    margin-bottom: 0.9rem;
+    margin-left: 0.2rem;
 }
 
 .logo > span {
@@ -52,8 +53,17 @@ body {
 
 .menu__item {
     list-style-type: none;
-    margin: 0.2rem 0 0 3rem;
+    margin: 0.3rem 0 0 3rem;
     font-size: 1.2rem;
+}
+
+.menu__item:not(:first-child)::before {
+    content: ".";
+    position: absolute;
+    bottom: 4rem;
+    font-size: 2rem;
+    margin-left: -1.7rem;
+    color: #3a3e4d;
 }
 
 .menu__item > a {
@@ -104,7 +114,7 @@ body {
 }
 
 .content > .wrapper {
-    width: 1020px;
+    width: 102rem;
     height: 45rem;
     padding: 3.4rem 4rem;
     color: #666d89;
@@ -119,7 +129,7 @@ body {
 .content__description {
     font-weight: 300;
     font-size: 1.7rem;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.04rem;
     line-height: 3rem;
     text-align: justify;
 }
@@ -150,7 +160,7 @@ body {
     margin-bottom: 1rem;
     text-transform: capitalize;
     letter-spacing: -0.09rem;
-    margin-left: 3px;
+    margin-left: 0.3rem;
 }
 
 .card__description {
