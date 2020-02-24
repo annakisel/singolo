@@ -1,0 +1,85 @@
+.portfolio {
+    background-color: #3a3e4d;
+    color: #666d89;
+    height: 87rem;
+}
+
+.portfolio > .wrapper, .about-us > .wrapper {
+    padding: 4.2rem 4rem;
+}
+
+.portfolio__header {
+    text-transform: capitalize;
+    margin: 2rem 0;
+    letter-spacing: 0.06rem;
+    font-size: 2.9rem;
+}
+
+.portfolio__description {
+    margin-top: 2.2rem;
+    font-weight: 200;
+    letter-spacing: 0.08rem;
+}
+
+.portfolio__tags {
+    margin-bottom: 2.2rem;
+}
+
+.tag {
+    border: 0.1rem solid #666d89;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    padding: 0.4rem 0.8rem;
+    margin-right: 0.7rem;
+    letter-spacing: 0.001rem;
+    cursor: pointer;
+}
+
+.tag:hover {
+    color: white;
+}
+
+.layout-columns_portfolio {
+    margin-bottom: 2.1rem;
+}
+
+.about-us {
+    background-color: #f2f2f2;
+    color: #666d89;
+}
+
+.about-us__header {
+    text-transform: capitalize;
+    margin: 1.8rem 0;
+    letter-spacing: 0.06rem;
+    font-size: 2.9rem;
+
+}
+
+.about-us__description {
+    font-weight: 300;
+    letter-spacing: 0.085rem;
+    text-align: justify;
+    line-height: 2.9rem;
+}
+
+.layout-columns_about {
+    margin-top: 4.8rem;
+}
+
+.card-person {
+    max-width: 30rem;
+}
+
+.card-person__name {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    letter-spacing: -0.4px;
+}
+
+.card-person__description {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    text-align: justify;
+}
