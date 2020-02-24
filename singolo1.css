@@ -151,13 +151,13 @@ body {
     text-align: justify;
 }
 
-.layout-columns, .layout-columns-first {
+.layout-columns {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.layout-columns-first {
+.layout-columns_first-services {
     margin-top: 2.5rem;
 }
 
