@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 16" width="21" height="16">
+	<defs>
+		<image width="14" height="14" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAMAAAAolt3jAAAAAXNSR0IB2cksfwAAADNQTFRFAAAAZW2JZW2JZW2JZW2JZW2JZW2JZW2JZW2JZW2JZW2JZW2JZW2JZW2JZW2JZW2JZW2J53WNcgAAABF0Uk5TABCf/+/P30BgIICPvzBwUK/lYYKcAAAAa0lEQVR4nDWPWxLFIAhDgSBWpO3d/2ovODQfzhwSeRCxAFCh1rB5AatpwokEs9Gx60lEHFc53dVIAybYdwQ0ssBPwDJ0VP4N1JwTZrcqe2NAmF5otr8qMiov6LnZJmX67Yjh+X03rl9d4E1/CAgCe1vqHa8AAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="google+" href="#img1" x="3" y="1" />
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 17" width="21" height="17">
+	<defs>
+		<image width="14" height="14" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOBAMAAADtZjDiAAAAAXNSR0IB2cksfwAAACRQTFRFZW2JZW2JZW2JZW2JAAAAZW2JZW2JZW2JZW2JZW2JZW2JZW2JtCexfgAAAAx0Uk5Tz//fEABA74CPn1AgFR8SWAAAADdJREFUeJxjYFR2AQEGQVEIzZgMoV1dYOKB4o2CLSBaTFBQHEQLZiaKgemQhYJg2mUjlHYkSAMAb+cTDE6e8eIAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="linkedin" href="#img1" x="4" y="2" />
+</svg>
