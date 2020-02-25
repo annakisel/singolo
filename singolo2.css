@@ -76,6 +76,9 @@
     margin-top: 1.5rem;
     margin-bottom: 0;
     letter-spacing: -0.4px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: auto;
 }
 
 .card-person__description {
