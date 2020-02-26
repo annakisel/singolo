@@ -110,4 +110,9 @@
     border: 1px solid #666d89;
     border-radius: 50%;
     padding: 5px;
+    cursor: pointer;
+}
+
+.social-networks__icon:hover {
+    color: white;
 }
