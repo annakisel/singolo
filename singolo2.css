@@ -1,28 +1,29 @@
 .portfolio {
     background-color: #2d303a;
     color: #666d89;
-    height: 87rem;
+    height: 864px;
+    border-bottom: 6px solid #323746;
 }
 
 .portfolio > .wrapper, .about-us > .wrapper {
-    padding: 4.2rem 4rem;
+    padding: 42px 40px;
 }
 
 .portfolio__header {
     text-transform: capitalize;
-    margin: 2rem 0;
+    margin: 20px 0;
     letter-spacing: 0.06rem;
     font-size: 2.9rem;
 }
 
 .portfolio__description {
-    margin-top: 2.2rem;
+    margin-top: 22px;
     font-weight: 200;
     letter-spacing: 0.08rem;
 }
 
 .portfolio__tags {
-    margin-bottom: 2.2rem;
+    margin-bottom: 22px;
 }
 
 .tag {
@@ -30,8 +31,8 @@
     border-radius: 5px;
     font-size: 1.1rem;
     text-transform: capitalize;
-    padding: 0.4rem 0.8rem;
-    margin-right: 0.7rem;
+    padding: 4px 8px;
+    margin-right: 7px;
     letter-spacing: 0.001rem;
     cursor: pointer;
 }
@@ -41,17 +42,19 @@
 }
 
 .layout-columns_portfolio {
-    margin-bottom: 2.1rem;
+    margin-bottom: 21px;
 }
 
 .about-us {
     background-color: #f2f2f2;
     color: #666d89;
+    height: 728px;
+    border-bottom: 6px solid white;
 }
 
 .about-us__header {
     text-transform: capitalize;
-    margin: 1.8rem 0;
+    margin: 18px 0;
     letter-spacing: 0.06rem;
     font-size: 2.9rem;
 
@@ -65,15 +68,15 @@
 }
 
 .layout-columns_about {
-    margin-top: 4.8rem;
+    margin-top: 48px;
 }
 
 .card-person {
-    max-width: 30rem;
+    max-width: 300px;
 }
 
 .card-person__name {
-    margin-top: 1.5rem;
+    margin-top: 15px;
     margin-bottom: 0;
     letter-spacing: -0.4px;
     white-space: nowrap;

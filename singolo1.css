@@ -20,12 +20,12 @@ body {
 }
 
 .header > .wrapper {
-    width: 102rem;
+    width: 1020px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 9.5rem;
-    padding: 0 3.9rem;
+    height: 95px;
+    padding: 0 39px;
     letter-spacing: -0.015rem;
 }
 
@@ -39,8 +39,8 @@ body {
 .logo {
     font-weight: 500;
     font-size: 2.35rem;
-    margin-bottom: 2.2rem;
-    margin-left: 0.1rem;
+    margin-bottom: 22px;
+    margin-left: 1px;
     letter-spacing: 0.05rem;
 }
 
@@ -55,16 +55,16 @@ body {
 
 .menu__item {
     list-style-type: none;
-    margin: 0.3rem 0 0 3rem;
+    margin: 3px 0 0 30px;
     font-size: 1.2rem;
 }
 
 .menu__item:not(:first-child)::before {
     content: ".";
     position: absolute;
-    bottom: 4rem;
+    bottom: 40px;
     font-size: 2rem;
-    margin-left: -1.7rem;
+    margin-left: -17px;
     color: #3a3e4d;
 }
 
@@ -79,13 +79,13 @@ body {
 
 .main {
     position: relative;
-    top: 9.5rem;
+    top: 95px;
 }
 
 .slider {
     display: flex;
     align-items: center;
-    height: 60rem;
+    height: 600px;
     background-color: #f06c64;
 }
 
@@ -109,15 +109,15 @@ body {
 }
 
 .phone {
-    margin-bottom: 1.2rem;
+    margin-bottom: 12px;
 }
 
 .horizontal {
-    margin-left: 2.2rem;
+    margin-left: 22px;
 }
 
 .vertical {
-    margin-left: 0.1rem;
+    margin-left: 1px;
 }
 
 .arrow_prev {
@@ -131,16 +131,16 @@ body {
 }
 
 .content > .wrapper {
-    width: 102rem;
-    height: 45rem;
-    padding: 3.4rem 4rem;
+    width: 1020px;
+    height: 450px;
+    padding: 34px 40px;
     color: #666d89;
 }
 
 .content__header {
     font-size: 3rem;
     text-transform: capitalize;
-    margin-bottom: 1.8rem;
+    margin-bottom: 18px;
 }
 
 .content__description {
@@ -164,23 +164,23 @@ body {
 .card {
     display: flex;
     flex-direction: row;
-    width: 30rem;
+    width: 300px;
 }
 
 .card__img {
-    margin: 0 1.5rem 2rem 0;
+    margin: 0 15px 20px 0;
 }
 
 .card__header {
     font-size: 2rem;
     text-transform: capitalize;
     letter-spacing: -0.08rem;
-    margin: 1.66rem 0 1rem 0.3rem;
+    margin: 16.6px 0 10px 3px;
 }
 
 .card__description {
     font-size: 1.2rem;
     line-height: 2rem;
     text-align: justify;
-    margin: 1rem 0 1.2rem 0.3rem;
+    margin: 10px 0 12px 3px;
 }
