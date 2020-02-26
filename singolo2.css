@@ -41,8 +41,14 @@
     color: white;
 }
 
-.layout-columns_portfolio {
-    margin-bottom: 21px;
+.portfolio__image-rows {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.portfolio__image-rows > img:nth-child(n+13) {
+    display: none;
 }
 
 .about-us {
