@@ -8,13 +8,14 @@
 .wrapper {
     max-width: 1020px;
     margin: 0 40px;
+    height: 100%;
 }
 
 .get-a-quote__header {
     margin-top: 0;
     margin-bottom: 19px;
     font-size: 2.9rem;
-    letter-spacing: 0.06rem;
+    letter-spacing: 0.05rem;
 }
 
 .get-a-quote__description {
@@ -85,4 +86,22 @@
 
 .contact__icon {
     width: 15px;
+}
+
+.footer {
+    height: 76px;
+    background-color: #2d303a;
+}
+
+.footer > .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #666d89;
+    font-size: 1.2rem;
+}
+
+.footer__label {
+    letter-spacing: -0.1px;
+    margin-left: 1px;
 }

@@ -94,10 +94,7 @@
     font-size: 1.2rem;
     line-height: 2rem;
     text-align: justify;
-}
-
-.social-networks {
-    margin-top: 21px;
+    margin-bottom: 21px;
 }
 
 .social-networks__icon:not(:first-child) {
