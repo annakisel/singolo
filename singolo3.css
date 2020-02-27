@@ -1,0 +1,88 @@
+.get-a-quote {
+    background-color: #f06c64;
+    height: 534px;
+    padding: 60px 0;
+    color: #f0d8d9;
+}
+
+.wrapper {
+    max-width: 1020px;
+    margin: 0 40px;
+}
+
+.get-a-quote__header {
+    margin-top: 0;
+    margin-bottom: 19px;
+    font-size: 2.9rem;
+    letter-spacing: 0.06rem;
+}
+
+.get-a-quote__description {
+    text-align: justify;
+    font-weight: 300;
+    line-height: 3rem;
+    font-size: 1.8rem;
+    margin-bottom: 44px;
+}
+
+.get-a-quote__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.get-a-quote__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.get-a-quote__input {
+    font-family: "Lato", sans-serif;
+    width: 590px;
+    height: 25px;
+    background-color: #d6564f;
+    border: 5px solid #d6564f;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    padding: 2px 10px;
+}
+
+.get-a-quote__input::placeholder {
+    color: #f48c8f;
+}
+
+.get-a-quote_textarea {
+    height: 18.7rem;
+    resize: none;
+}
+
+.contact-information__header {
+    text-transform: capitalize;
+    font-size: 1.7rem;
+    line-height: 1.8rem;
+    margin: 0;
+    letter-spacing: 0.6px;
+}
+
+.contact-information__description {
+    text-align: justify;
+    font-weight: 400;
+    width: 300px;
+    font-size: 1.2rem;
+    line-height: 2.1rem;
+    letter-spacing: -0.1px;
+    margin-top: 10px;
+    margin-bottom: 22px;
+}
+
+.contact__info {
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 2.1rem;
+    margin-left: 5px;
+    letter-spacing: -0.05px;
+}
+
+.contact__icon {
+    width: 15px;
+}

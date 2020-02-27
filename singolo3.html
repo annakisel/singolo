@@ -11,42 +11,44 @@
 <main>
     <section class="get-a-quote">
         <div class="wrapper">
-            <h2 class="get-a-quote__header">get a quote</h2>
+            <h2 class="get-a-quote__header">Get a Quote</h2>
             <p class="get-a-quote__description">
                 Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus,
                 nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo,
                 tortor mauris condimentum nibh.
             </p>
-            <form action="" method="get">
-                <input type="text" name="name" placeholder="Name" required>
-                <input type="email" name="email" placeholder="Email" required>
-                <input type="text" name="subject" placeholder="Subject" required>
-                <textarea placeholder="Describe your project in detail..." name="description"></textarea>
-            </form>
-            <section class="contact-information">
-                <h3 class="contact-information__header">
-                    contact information
-                </h3>
-                <p class="contact-information__description">
-                    Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus.
-                    Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet
-                    turpis, et consequat felis.
-                </p>
-                <div class="contact-information__contacts">
-                    <div class="contact">
-                        <img src="" alt="">
-                        <span class="contact__info">Elm St. 14/05 Lost City</span>
+            <div class="get-a-quote__content">
+                <form class="get-a-quote__form" action="" method="get">
+                    <input type="text" name="name" placeholder="Name (Required)" class="get-a-quote__input" required>
+                    <input type="email" name="email" placeholder="Email (Required)" class="get-a-quote__input" required>
+                    <input type="text" name="subject" placeholder="Subject" class="get-a-quote__input">
+                    <textarea placeholder="Describe your project in detail..." rows="10" name="description" class="get-a-quote__input get-a-quote_textarea"></textarea>
+                </form>
+                <section class="contact-information">
+                    <h3 class="contact-information__header">
+                        contact information
+                    </h3>
+                    <p class="contact-information__description">
+                        Quisque hendrerit purus dapibus, ornare nibh vitae, viver&shy;ra nibh. Fusce vitae aliquam tellus.
+                        Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet
+                        turpis, et consequat felis.
+                    </p>
+                    <div class="contact-information__contacts">
+                        <div class="contact">
+                            <img src="assets/images/location.svg" alt="Location" height="12px" class="contact__icon">
+                            <span class="contact__info">Elm St. 14/05 Lost City</span>
+                        </div>
+                        <div class="contact">
+                            <img src="assets/images/phone_pink.svg" alt="Phone" height="12px" class="contact__icon">
+                            <span class="contact__info">03528 331 86 35</span>
+                        </div>
+                        <div class="contact">
+                            <img src="assets/images/mail.svg" alt="Mail" height="9px" class="contact__icon">
+                            <span class="contact__info">info@singolo.com</span>
+                        </div>
                     </div>
-                    <div class="contact">
-                        <img src="" alt="">
-                        <span class="contact__info">03528 331 86 35</span>
-                    </div>
-                    <div class="contact">
-                        <img src="" alt="">
-                        <span class="contact__info">info@singolo.com</span>
-                    </div>
-                </div>
-            </section>
+                </section>
+            </div>
         </div>
     </section>
 </main>
