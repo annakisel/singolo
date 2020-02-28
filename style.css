@@ -8,19 +8,18 @@ body {
     margin: 0;
 }
 
+.wrapper {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
 .header {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    top: 0;
-    left: 0;
     background-color: #2d303a;
     font-weight: 700;
+    min-width: 1020px;
 }
 
 .header > .wrapper {
-    width: 1020px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -57,6 +56,7 @@ body {
     list-style-type: none;
     margin: 3px 0 0 30px;
     font-size: 1.2rem;
+    letter-spacing: -0.2px;
 }
 
 .menu__item:not(:first-child)::before {
@@ -77,16 +77,10 @@ body {
     color: #f06c64;
 }
 
-.main {
-    position: relative;
-    top: 95px;
-}
-
 .slider {
-    display: flex;
-    align-items: center;
-    height: 600px;
+    height: 594px;
     background-color: #f06c64;
+    border-bottom: 6px solid #ea676b;
 }
 
 .slider > .wrapper {
@@ -94,14 +88,14 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 3rem;
-    width: 100%;
+    height: 100%;
 }
 
 .arrow {
     background: url('assets/images/right.png') no-repeat transparent;
     height: 4rem;
     width: 2.7rem;
-    border: none;
+    margin-top: 7px;
 }
 
 .arrow:hover {
@@ -109,15 +103,15 @@ body {
 }
 
 .phone {
-    margin-bottom: 12px;
+    margin-bottom: 6px;
 }
 
 .horizontal {
-    margin-left: 22px;
+    margin-left: 20px;
 }
 
 .vertical {
-    margin-left: 1px;
+    margin-left: 3px;
 }
 
 .arrow_prev {
@@ -128,11 +122,11 @@ body {
     display: flex;
     justify-content: center;
     background-color: #f2f2f2;
-    height: 500px;
+    height: 494px;
+    border-bottom: 6px solid white;
 }
 
 .our-services > .wrapper {
-    width: 1020px;
     padding: 34px 40px;
     color: #666d89;
 }
@@ -269,7 +263,7 @@ body {
 }
 
 .card-person__name {
-    margin-top: 15px;
+    margin-top: 11px;
     margin-bottom: 0;
     letter-spacing: -0.4px;
     white-space: nowrap;
@@ -281,7 +275,7 @@ body {
     font-size: 1.2rem;
     line-height: 2rem;
     text-align: justify;
-    margin-bottom: 21px;
+    margin-bottom: 23px;
 }
 
 .social-networks__icon:not(:first-child) {
@@ -303,14 +297,12 @@ body {
 
 .get-a-quote {
     background-color: #f06c64;
-    height: 534px;
-    padding: 60px 0;
+    height: 535px;
+    padding: 60px 40px;
     color: #f0d8d9;
 }
 
 .get-a-quote > .wrapper {
-    max-width: 1020px;
-    margin: 0 40px;
     height: 100%;
 }
 
@@ -342,13 +334,13 @@ body {
 .get-a-quote__input {
     font-family: "Lato", sans-serif;
     width: 590px;
-    height: 25px;
+    height: 24px;
     background-color: #d6564f;
     border: 5px solid #d6564f;
     border-radius: 5px;
     margin-bottom: 15px;
     font-size: 1.2rem;
-    padding: 2px 10px;
+    padding: 2.5px 10px;
 }
 
 .get-a-quote__input::placeholder {
@@ -365,7 +357,7 @@ body {
     font-size: 1.7rem;
     line-height: 1.8rem;
     margin: 0;
-    letter-spacing: 0.6px;
+    letter-spacing: 0.06rem;
 }
 
 .contact-information__description {
@@ -373,10 +365,14 @@ body {
     font-weight: 400;
     width: 300px;
     font-size: 1.2rem;
-    line-height: 2.1rem;
+    line-height: 2.2rem;
     letter-spacing: -0.1px;
     margin-top: 10px;
-    margin-bottom: 22px;
+    margin-bottom: 20px;
+}
+
+.contact__icon {
+    width: 15px;
 }
 
 .contact__info {
@@ -387,15 +383,9 @@ body {
     letter-spacing: -0.05px;
 }
 
-.contact__icon {
-    width: 15px;
-}
-
 .footer {
-    position: relative;
     height: 76px;
     background-color: #2d303a;
-    bottom: 0;
 }
 
 .footer > .wrapper {
@@ -404,6 +394,8 @@ body {
     align-items: center;
     color: #666d89;
     font-size: 1.2rem;
+    height: 100%;
+    padding: 0 40px;
 }
 
 .footer__label {
