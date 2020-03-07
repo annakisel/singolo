@@ -232,7 +232,7 @@ body {
     cursor: pointer;
 }
 
-.tag:hover {
+.tag:hover, .tag_active {
     color: white;
 }
 
