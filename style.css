@@ -212,9 +212,10 @@ body {
 }
 
 .portfolio__description {
-    margin: 22px 0 18px;
+    margin: 22px 0 15px;
     font-weight: 200;
-    letter-spacing: 0.08rem;
+    font-size: 1.8rem;
+    letter-spacing: 0.001rem;
 }
 
 .portfolio__tags {
@@ -234,6 +235,7 @@ body {
 
 .tag:hover, .tag_active {
     color: white;
+    border-color: white;
 }
 
 .portfolio__image-rows {
